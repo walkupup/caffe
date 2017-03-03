@@ -1,0 +1,2 @@
+"../convert_mnist_data" f:/data/mnist/train-images.idx3-ubyte f:/data/mnist/train-labels.idx1-ubyte mnistlmdb --backend="lmdb"
+"../convert_mnist_data" f:/data/mnist/t10k-images.idx3-ubyte f:/data/mnist/t10k-labels.idx1-ubyte mnistlmdbtest --backend="lmdb"
